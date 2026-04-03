@@ -3,7 +3,8 @@ public class CustoAluguelVeiculo {
     double totalAluguel;
 
     void calcularAluguel(AlugarVeiculo a) {
-        totalAluguel = (a.valorDia * a.numeroDias) +
-                (a.kilometrosRodados * a.valorKilometroRodado);
+        totalAluguel = (a.getValorDia() * a.getNumeroDias()) +
+                (a.getKilometrosRodados() * a.getValorKilometroRodado());
+
     }
 }

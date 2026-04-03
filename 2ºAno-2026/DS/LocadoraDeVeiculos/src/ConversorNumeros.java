@@ -1,6 +1,6 @@
 public class ConversorNumeros {
 
-    public Integer StringToInt(String numero){
+    public Integer stringToInt(String numero){
         int conversor = Integer.parseInt(numero);
         return (conversor);
     }
