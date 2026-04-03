@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade para habilitação</title>
+</head>
+<body>
+    <script>
+        function podeDirigir(idade=0) {
+    if (idade >= 18) {
+        return "Pode ser habilitado(a)" 
+    } else {
+        return "Ainda não pode"
+    }
+}
+let idadeUsuario = prompt("Digite sua idade:");
+idadeUsuario = Number(idadeUsuario);
+
+alert(podeDirigir(idadeUsuario));
+    </script>
+</body>
+</html>
