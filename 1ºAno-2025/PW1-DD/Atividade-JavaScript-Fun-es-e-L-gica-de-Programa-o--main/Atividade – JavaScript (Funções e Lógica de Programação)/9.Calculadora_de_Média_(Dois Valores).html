@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de médias</title>
+</head>
+<body>
+    <script>
+        function calcularMediaSimples(N1=0, N2=0) {
+            const media = (N1 + N2) / 2
+            if (media >= 7) {
+                return "Aprovado"
+            } else {
+                return "Reprovado"
+            }
+}
+let nota1 = prompt("Digite a primeira nota:")
+nota1 = Number(nota1)
+let nota2 = prompt("Digite a segunda nota:")
+nota2 = Number(nota2)
+alert(calcularMediaSimples(nota1, nota2))
+    </script>
+</body>
+</html>
