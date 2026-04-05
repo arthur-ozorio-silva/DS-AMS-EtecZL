@@ -1,0 +1,9 @@
+.card-expand {
+    transition: 0.3s;
+}
+.card-expand:hover {
+    transform: scale(1.03);
+}
+.Body{
+   background-color: #FFFDD0;
+}
